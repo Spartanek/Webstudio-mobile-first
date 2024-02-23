@@ -9,3 +9,18 @@
 3. Стилізація;
 4. Стилізація відносно техніки mobile-first;
 5. Додавання js елементів
+
+   $name: #fff;
+.welcome::before{
+height:200px;
+font-size:40;
+content:'Привіт, #{$name}'
+   }
+      <!-- social - кожного разу коли буде цикл буде запускатись нове значення по-черзі -->
+
+   @each $social in telegram, viber{
+.#{$social}-icon{
+   background-image: url('../#{$social}.png');
+   }
+   }
+   layout

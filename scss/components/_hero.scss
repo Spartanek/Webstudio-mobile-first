@@ -1,0 +1,42 @@
+.hero-heading {
+  width: 360px;
+  height: 84px;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 42px;
+  letter-spacing: 6%;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+.hero-button {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: #2196f3;
+  border: none;
+  margin-top: 30px;
+}
+.span-hero-button {
+  align-items: center;
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 6%;
+  text-align: center;
+}
+.hero {
+  background-image: url(../../assets/img/page-1/telephone/1x/section1-hero/Hero-tel1x.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  //  ще треба затінення
+  padding: 118px 0px;
+}
