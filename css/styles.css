@@ -157,6 +157,10 @@ body {
   align-items: center;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 .container {
   width: 480px;
   padding: 0px 15px;
@@ -183,7 +187,7 @@ body {
 }
 
 .header-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
@@ -216,7 +220,7 @@ header {
   width: 360px;
   height: 84px;
   color: #ffffff;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 26px;
   font-weight: 900;
   line-height: 42px;
@@ -241,7 +245,7 @@ header {
 .span-hero-button {
   align-items: center;
   color: #ffffff;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 30px;
@@ -263,7 +267,7 @@ header {
 
 .feature-heading {
   color: rgb(33, 33, 33);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
@@ -274,7 +278,7 @@ header {
 
 .feature-text {
   color: rgb(117, 117, 117);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -332,7 +336,7 @@ header {
   width: 205px;
   height: 33px;
   color: rgb(33, 33, 33);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 28px;
   font-weight: 700;
   line-height: 33px;
@@ -348,10 +352,265 @@ header {
 
 .team-name {
   color: rgb(33, 33, 33);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 19px;
   letter-spacing: 3%;
   text-align: center;
+  margin-top: 30px;
+}
+
+.team-job {
+  color: rgb(117, 117, 117);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 3%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.media-list {
+  display: flex;
+  margin-top: 16px;
+  justify-content: center;
+}
+
+.media-icon {
+  width: 20px;
+  height: 20px;
+  fill: rgb(175, 177, 184);
+}
+
+.team-item {
+  border-radius: 0px 0px 4px 4px;
+  /* material shadow v1 */
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  background: rgb(255, 255, 255);
+  padding-bottom: 25px;
+}
+.team-item:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.media-button {
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background: transparent;
+}
+
+.partner {
+  padding: 60px 0px;
+}
+
+.partner-svg {
+  fill: rgb(175, 177, 184);
+  width: 210px;
+  height: 90px;
+  padding: 15px 50px;
+  border-radius: 4px;
+  border: 1px solid rgb(175, 177, 184);
+}
+
+.partner-heading {
+  color: rgb(33, 33, 33);
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 3%;
+  text-align: center;
+}
+
+.partner-list {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+footer {
+  background: rgb(47, 48, 58);
+  padding: 60px 0px;
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 3%;
+  display: block;
+  margin: 0 auto;
+  color: #2196f3;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo-span {
+  color: #fff;
+}
+
+.address {
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: center;
+}
+
+.contacts-list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.contact-link {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: center;
+}
+
+.social-div {
+  margin-top: 60px;
+}
+
+.social-div-heading {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 3%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.social-list {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-button {
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+
+.div-form-footer {
+  margin-top: 60px;
+}
+
+.label-footer {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  display: block;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 3%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form-footer-input {
+  outline: none;
+  display: block;
+  margin: 0 auto;
+  padding-left: 20px;
+  margin-top: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: rgba(33, 150, 243, 0);
+  width: 450px;
+  height: 50px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 3%;
+}
+.form-footer-input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 3%;
+}
+.form-footer-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 3%;
+}
+
+.form-footer-button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background: rgb(33, 150, 243);
+}
+
+.footer-button-svg {
+  margin-left: 10px;
+  width: 25px;
+  height: 25px;
+  fill: #fff;
+}
+
+.footer-button-text {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 6%;
+}
+
+.footer-button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

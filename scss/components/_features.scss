@@ -3,7 +3,7 @@
 }
 .feature-heading {
   color: rgb(33, 33, 33);
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 16px;
@@ -13,7 +13,7 @@
 }
 .feature-text {
   color: rgb(117, 117, 117);
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -24,7 +24,7 @@
 
 .feature-item {
   &:before {
-    content: "";
+    content: '';
     width: 450px;
     height: 120px;
     display: block;
@@ -36,26 +36,26 @@
   }
 }
 .antenna-li::before {
-  content: "";
+  content: '';
   background-image: url(../../assets/svg/antenna.svg);
   background-repeat: no-repeat;
   margin: 0 auto;
   background-position: center;
 }
 .clock-li::before {
-  content: "";
+  content: '';
   background-image: url(../../assets/svg/clock.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .diagram-li::before {
-  content: "";
+  content: '';
   background-image: url(../../assets/svg/diagram.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
 .astronaut-li::before {
-  content: "";
+  content: '';
   background-image: url(../../assets/svg/astronaut.svg);
   background-repeat: no-repeat;
   background-position: center;

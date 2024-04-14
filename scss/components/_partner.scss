@@ -1,0 +1,28 @@
+.partner {
+  padding: 60px 0px;
+}
+.partner-svg {
+  fill: rgb(175, 177, 184);
+  width: 210px;
+  height: 90px;
+  padding: 15px 50px;
+  border-radius: 4px;
+  border: 1px solid rgb(175, 177, 184);
+}
+.partner-heading {
+  color: rgb(33, 33, 33);
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 3%;
+  text-align: center;
+}
+.partner-list {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}

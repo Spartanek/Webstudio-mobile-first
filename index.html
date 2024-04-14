@@ -99,7 +99,7 @@
                 class="team-img"
               />
               <h3 class="team-name">Ігор Дем'яненко</h3>
-              <p class="teamjob">Product Designer</p>
+              <p class="team-job">Product Designer</p>
               <ul class="media-list">
                 <li class="media-item">
                   <button class="media-button">
@@ -145,7 +145,7 @@
                 class="team-img"
               />
               <h3 class="team-name">Ольга Рєпіна</h3>
-              <p class="teamjob">Frontend Developer</p>
+              <p class="team-job">Frontend Developer</p>
               <ul class="media-list">
                 <li class="media-item">
                   <button class="media-button">
@@ -191,7 +191,7 @@
                 class="team-img"
               />
               <h3 class="team-name">Микола Тарасов</h3>
-              <p class="teamjob">Marketing</p>
+              <p class="team-job">Marketing</p>
               <ul class="media-list">
                 <li class="media-item">
                   <button class="media-button">
@@ -237,7 +237,7 @@
                 class="team-img"
               />
               <h3 class="team-name">Михайло Єрмаков</h3>
-              <p class="teamjob">UI Designer</p>
+              <p class="team-job">UI Designer</p>
               <ul class="media-list">
                 <li class="media-item">
                   <button class="media-button">
@@ -280,7 +280,7 @@
       </section>
       <section class="partner">
         <div class="container">
-          <h2 class="partner-heading"></h2>
+          <h2 class="partner-heading">Постійні клієнти</h2>
           <ul class="partner-list">
             <li class="partner-item">
               <svg class="partner-svg">
@@ -320,22 +320,26 @@
       <div class="container">
         <div class="addressing">
           <a href="" class="footer-logo"
-            ><span class="footer-logo-span"></span
-          ></a>
+            >Web<span class="footer-logo-span">studio</span></a
+          >
           <address class="address">
             <p>м. Київ, пр-т Лесі Українки, 26</p>
           </address>
-          <ul class="contacts-item">
-            <li class="contacts-list">
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <a class="contact-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
             </li>
-            <li class="contacts-list">
-              <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <li class="contacts-item">
+              <a class="contact-link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
             </li>
           </ul>
         </div>
         <div class="social-div">
-          <h3 class="social-div-heading"></h3>
+          <h3 class="social-div-heading">приєднуйтесь</h3>
           <ul class="social-list">
             <li class="social-item">
               <button class="social-button">
@@ -369,14 +373,23 @@
         </div>
         <div class="div-form-footer">
           <form class="form-footer">
-            <label for=""></label>
+            <label class="label-footer" for="input-footer-idichnick"
+              >Підпишіться на розсилку</label
+            >
             <input
               class="form-footer-input"
-              class=""
+              id="input-footer-idichnick"
               type="email"
               placeholder="E-mail"
             />
-            <button class="form-footer-button" type="submit"></button>
+            <button class="form-footer-button" type="submit">
+              <div class="footer-button-div">
+                <p class="footer-button-text">Підписатися</p>
+                <svg class="footer-button-svg">
+                  <use href="./assets/svg/other-svg.svg#icon-telegram"></use>
+                </svg>
+              </div>
+            </button>
           </form>
         </div>
       </div>
